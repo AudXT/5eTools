@@ -100,5 +100,60 @@
 				}
 			]
 		}
+	],
+	"spell":[
+				{
+			"name": "Negative Energy Binding",
+			"source": "AudXHomebrew",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "self"
+			},
+			"components": {
+				"s": true,
+				"m": "A small piece of troll’s flesh"
+			},
+			"duration": [
+				{
+					"type": "concentration",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"When you cast this spell your weapon or ammunition becomes coated in necrotic energy that drains the healing energy of any creatures it attaches to.",
+				"On each of your turns for the duration, the first time you hit a creature with a weapon attack you deal an additional 1d8 necrotic damage. When a creature is hit by this effect the energy attaches to it and it can’t regain hit points until the spell ends or you hit a new creature with this effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher increase the damage it deals by 1d8 for each spell level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		}
 	]
 }
