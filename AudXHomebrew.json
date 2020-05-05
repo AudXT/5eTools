@@ -122,16 +122,17 @@
 			},
 			"duration": [
 				{
-					"type": "concentration",
+					"type": "timed",
 					"duration": {
 						"type": "minute",
 						"amount": 1
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
 				"When you cast this spell your weapon or ammunition becomes coated in necrotic energy that drains the healing energy of any creatures it attaches to.",
-				"On each of your turns for the duration, the first time you hit a creature with a weapon attack you deal an additional 1d8 necrotic damage. When a creature is hit by this effect the energy attaches to it and it can’t regain hit points until the spell ends or you hit a new creature with this effect."
+				"On each of your turns for the duration, the first time you hit a creature with a weapon attack you deal an additional 1d8 necrotic damage. When a creature is hit by this effect the energy attaches to the creature and it can’t regain hit points until the spell ends or you the energy binds to a new creature."
 			],
 			"entriesHigherLevel": [
 				{
