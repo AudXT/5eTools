@@ -1,9 +1,22 @@
 {
-	"_meta": {
-		"internalCopies": [
-			"race"
-		]
-	},
+"_meta": {
+        "sources": [
+            {
+                "json": "AudXHomebrew",
+                "abbreviation": "AXH",
+                "full": "AudX Custom Homebrew",
+                "url": "https://github.com/AudXT/5eTools",
+                "authors": [
+                    "AudX"
+                ],
+                "convertedBy": [
+                    "AudX"
+                ]
+            }
+        ],
+        "dateAdded": 1588713275,
+        "dateLastModified": 1588713275
+    },
 	"race": [
 		{
 			"name": "Skeleton",
