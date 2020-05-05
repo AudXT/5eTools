@@ -1,0 +1,91 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"race"
+		]
+	},
+	"race": [
+		{
+			"name": "Skeleton",
+			"source": "AudXHomebrew",
+			"ability": [
+				{
+					"cha": -1,
+					"dex": 2,
+					"con": 2
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brittle",
+					"entries": [
+						"You are vulnerable to bludgeoning damage, but resistant to slashing and piercing damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead",
+					"entries": [
+						"You are considered undead not humanoid for spells and effects."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"You are immune to disease and the poisoned condition, and you have resistance to poison damage. You do not need to eat or breathe, but you can ingest food or drink if you wish. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state, but resting in this way is otherwise identical to sleeping. Magically induced sleep can cause you to enter this inactive state."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bonepile",
+					"entries": [
+						"When reduced to 0 hp instead of making death saves you can choose to fall prone to a pile of magical bones while in this state you can not move or take actions except to end the effect and you are immune to all damage and conditions. A dispel magic or similar effect will end this effect early."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, and one other language that your creator knew"
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"name": "Size",
+						"entries":[
+							"Skeletons are usually made from a human corpse and thus are usually around 5 or 6 ft. Your size is Medium. A human skeleton is usually around 20 or 30 lbs."
+						]
+					},
+					{
+						"name": "Age",
+						"entries":[
+							"Skeletons don’t age, they can theoretically live forever. They appear the same as when they were created."
+						]
+					},
+					{
+						"name": "Alignment",
+						"entries":[
+							"Most skeletons are evil and corrupted by the necromantic energy that fuels them. They are usually created with a purpose in mind or to do a necromancers bidding."
+						]
+					}
+				]
+			},
+			"traitTags": [
+				"Improved Resting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			]
+		}
+	]
+}
