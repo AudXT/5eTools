@@ -328,23 +328,20 @@
 					{
 						"name": "Expertise",
 						"entries": [
-							"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
-							"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain this benefit."
+							"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item metallurgy kit|AudXHomebrew}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+							"At 6th level, you can choose two more of your proficiencies (in skills or with {@item metallurgy kit|AudXHomebrew}) to gain this benefit."
 						]
 					},
 					{
 						"name": "Allomancy",
 						"entries": [
-							"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@dice 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
-							"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
-							"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+							"At 1st level, you gain access to allomancy and learn the first ability of each of the metals. You gain choose a new allomantic ability each level."
 						]
 					},
 					{
 						"name": "Metallurgy",
 						"entries": [
-							"During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
-							"In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+							"At 1st level, as a Mistborn understanding how metal vials are made is important. Not all mistborn are experts with metallurgy kits but each one should know how to make their own metals and how to properly combine different metals into a single vial, you gain proficiency with the metallurgy kit."
 						]
 					}
 				],
@@ -352,7 +349,98 @@
 					{
 						"name": "Fighting Style",
 						"entries": [
-							"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+							"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+							{
+								"type": "options",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Thrown Weapons",
+										"entries": [
+											"You gain a +2 bonus to attack rolls you make when throwing a weapon or using your steal/iron attacks and saves."
+										],
+										"source": "AudXHomebrew"
+									},
+									{
+										"type": "entries",
+										"name": "Unarmored Fighter",
+										"entries": [
+											"While you are not wearing armor, you gain a bonus to AC equal to half your proficiency bonus (rounded up)."
+										],
+										"source": "AudXHomebrew"
+									},
+									{
+										"type": "entries",
+										"name": "Dueling",
+										"entries": [
+											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Mariner",
+										"entries": [
+											"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
+										],
+										"source": "UAWaterborneAdventures"
+									},
+									{
+										"type": "entries",
+										"name": "Two-Weapon Fighting",
+										"entries": [
+											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Superior Technique",
+										"entries": [
+											"You learn one {@filter maneuver|optionalfeatures|feature type=MV;MV:B} of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+											"You gain one superiority die, which is a {@dice d6} (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 5
+									},
+									{
+										"type": "entries",
+										"name": "Blind Fighting",
+										"entries": [
+											"Being unable to see a creature doesn't impose disadvantage on your attack rolls against it, provided the creature isn't hidden from you."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Interception",
+										"entries": [
+											"When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by {@dice 1d10} + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Thrown Weapon Fighting",
+										"entries": [
+											"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
+											"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									},
+									{
+										"type": "entries",
+										"name": "Unarmed Fighting",
+										"entries": [
+											"Your unarmed strikes can deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier. If you strike with two free hands, the {@dice d6} becomes a {@dice d8}.",
+											"When you successfully start a grapple, you can deal {@dice 1d4} bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack."
+										],
+										"source": "UAClassFeatureVariants",
+										"page": 12
+									}
+								]
+							}
 						]
 					}
 				],
@@ -360,9 +448,9 @@
 					{
 						"name": "Allomantic Specialty",
 						"entries": [
-							"At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
-						],
-						"gainSubclassFeature": true
+							"At 3rd level, you choose one of the subsets of allomancy to focus on as your primary Physical (steel, iron, Pewter, Tin) Mental (Zinc, Brass, Copper, Bronze), Enhancement (Nicrosil, Aluminium, Aluminum, Chromium), Temporal (Electrum, Gold, Bendalloy, Cadmium).",
+							"When you choose this and again at levels 6, 9, 13, 17 you can choose an extra ability from your chosen subset. If you already have all of the available abilities from your subset choose a second subset to specialize in and so forth."
+						]
 					}
 				],
 				[
@@ -378,7 +466,7 @@
 					{
 						"name": "Extra Attack",
 						"entries": [
-							"Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
 						]
 					}
 				],
@@ -422,9 +510,9 @@
 					{
 						"name": "Allomantic Specialty",
 						"entries": [
-							"At 9th level, you gain a feature granted by your Roguish Archetype."
-						],
-						"gainSubclassFeature": true
+							"At 9th level, you choose an extra ability of your primary subset. Physical (steel, iron, Pewter, Tin) Mental (Zinc, Brass, Copper, Bronze), Enhancement (Nicrosil, Aluminium, Aluminum, Chromium), Temporal (Electrum, Gold, Bendalloy, Cadmium).",
+							"If you already have all of the available abilities from your subset choose a second subset to specialize in and so forth."
+						]
 					}
 				],
 				[
@@ -451,7 +539,7 @@
 					{
 						"name": "Instant Burn",
 						"entries": [
-							"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+							"Beginning at 11th level, you rely on having your metals ready in combat and can quickly begin burning your metals in a moments notice. Burning metals only takes you a bonus action and you can begin burning metals when initiative is rolled by expending 1 charge of the metals you want to begin burning."
 						]
 					}
 				],
@@ -479,24 +567,26 @@
 					{
 						"name": "Allomantic Specialty",
 						"entries": [
-							"At 13th level, you gain a feature granted by your Roguish Archetype."
-						],
-						"gainSubclassFeature": true
+							"At 13th level, you choose an extra ability of your primary subset. Physical (steel, iron, Pewter, Tin) Mental (Zinc, Brass, Copper, Bronze), Enhancement (Nicrosil, Aluminium, Aluminum, Chromium), Temporal (Electrum, Gold, Bendalloy, Cadmium).",
+							"If you already have all of the available abilities from your subset choose a second subset to specialize in and so forth."
+						]
 					}
 				],
 				[
 					{
 						"name": "Natural Reserve",
 						"entries": [
-							"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
+							"At 14th level your body has grown accustomed to the metals you burn and has grown resistant to the poisons they can cause. You no longer need to burn away your excess metals at night and can continue or start burning them while you are unconscious.",
+							"You also have advantage against saving throws against poisons and disease."
 						]
 					}
 				],
 				[
 					{
-						"name": "Metallic Specialty",
+						"name": "Metallic Specialist",
 						"entries": [
-							"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+							"At 15th level choose one of the metals from a category you specialize in, your body can now naturally create this metal allowing you to have extra reserves of the chosen metal.",
+							"After finishing a long rest you have a minimum of 6 vials worth of your chosen metal ready to burn and your chosen metal burns at a quarter of the normal rate."
 						]
 					}
 				],
@@ -524,7 +614,8 @@
 					{
 						"name": "Allomantic Specialty",
 						"entries": [
-							"At 17th level, you gain a feature granted by your Roguish Archetype."
+							"At 17th level, you choose an extra ability of your primary subset. Physical (steel, iron, Pewter, Tin) Mental (Zinc, Brass, Copper, Bronze), Enhancement (Nicrosil, Aluminium, Aluminum, Chromium), Temporal (Electrum, Gold, Bendalloy, Cadmium).",
+							"If you already have all of the available abilities from your subset choose a second subset to specialize in and so forth."
 						],
 						"gainSubclassFeature": true
 					}
@@ -533,7 +624,7 @@
 					{
 						"name": "Allomantic Flight",
 						"entries": [
-							"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+							"at 18th level while you burn iron and steel and are within 90 ft of an anchor you are considered to have a flight speed of 60ft"
 						]
 					}
 				],
@@ -561,8 +652,7 @@
 					{
 						"name": "Allomantic Savant",
 						"entries": [
-							"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
-							"Once you use this feature, you can't use it again until you finish a short or long rest."
+							"At 20th level you have reached the pinnacle of what allomancy is capable of you are now considered a savant in all metals but no longer suffer the drawbacks of being a savant. Burning is now a free action for you."
 						]
 					}
 				]
