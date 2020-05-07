@@ -658,5 +658,71 @@
 				]
 			]
 		}
+	],
+	"items": [
+		{
+			"name": "Metallurgy Kit",
+			"source": "AudXHomebrew",
+			"type": "T",
+			"rarity": "none",
+			"weight": 1,
+			"value": 2500,
+			"entries": [
+				"This set of tools includes a small file, a set of weights and scales, chemicals used to clean metals, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to analyze or craft metal vials."
+			],
+			"additionalEntries": [
+				"Perhaps the most common tools used by adventurers, metallurgy kit are designed for picking locks and foiling traps. Proficiency with the tools also grants you a general knowledge of traps and locks.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"Metallurgy Kits includes a small file, a set of weights and scales, chemicals used to clean metals, and a pair of pliers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"Your knowledge of metallurgy grants you insight when answering questions about allomancy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Investigation and Perception",
+					"entries": [
+						"You gain additional insight when looking for metals or to check the quality of a metal vial, because you have learned a variety of common signs that betray their presence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Craft a vial of metals",
+					"entries": [
+						"You can attempt to prepare a vial of metals or craft a packet of metal dust. With at least one packet of metals and a vial you can make a check adding your metallurgy kit bonus. If you roll below a 9 you prepare one vial, if you roll below a 19 you prepare 2, anything higher and you prepare 3. Given a source of metal you can make the same check to attempt to extract the metal to create a metals packet."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Metallurgy Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Craft vial of metals",
+							"8 for 2 or 18 for 3"
+						],
+						[
+							"Craft packet of metal",
+							"Varies"
+						]
+					]
+				}
+			]
+		}
 	]
 }
