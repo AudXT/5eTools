@@ -1,5 +1,5 @@
 {
-"_meta": {
+	"_meta": {
         "sources": [
             {
                 "json": "AudXHomebrew",
@@ -724,5 +724,61 @@
 				}
 			]
 		}
+	],
+	"optionalfeatures": [
+			{
+			"name": "Steel",
+			"source": "AudXHomebrew",
+			"featureType": "Allomancy",
+			"entries": [
+				"One of the most complicated allomantic abilities it allows the art of burning steel to push metals away in a straight line from the user's center of gravity there are 2 general rules for steelpushing, which also apply to ironpulling, its paired opposite. The first rule is that the strength of your push is roughly proportional to your physical weight. This means that larger Allomancers can generally steelpush and ironpull more powerfully than a smaller counterpart. While proportional, the force exerted by a steelpush is much greater than the Coinshot's weight, allowing them to push themselves into the air by pushing on a piece of metal that is on the ground (or is anchored to something that weighs more than they do). The second rule is that metal that is at least partially inside a person's body cannot be affected by steel. Both of these rules can be overcome by a sufficiently strong Coinshot, however.",
+				{
+					"type": "table",
+					"caption": "Powers",
+					"colStyles": [
+						"col-3 text-center",
+						"col-9 text-center"
+					],
+					"colLabels": [
+						"Order",
+						"Description"
+					],
+					"rows": [
+						[
+							"1",
+							"While burning you can see blue lines leading to each source of metal within 30 ft you can push on any of these lines as an action to push the metal way from yourself."
+						],
+						[
+							"2",
+							"While burning push on small bits of metal to launch them gain the ability to make a ranged attack roll using Int with a range of 30/60 on a hit it deals 1d6 piercing damage. The item must weigh at least around as much as a copper piece."
+						],
+						[
+							"2",
+							"While burning use an action to Drop a piece of metal on the ground to push yourself 30 ft into the air you can stay there as long as you continue pushing, if you leave your original horizontal position, at the end of your turn you fall to the ground."
+						],
+						[
+							"3",
+							"While burning push on multiple pieces of metal in you hand to create a shotgun effect each creature in a 15 ft cone must make a dex save (DC int) or take 1d6 piercing damage."
+						],
+						[
+							"3",
+							"While falling you use a reaction to expend a charge to drop a piece of metal and catch yourself."
+						],
+						[
+							"4",
+							"While burning you can imbue your metal weapons with extra force add your int to damage rolls you make with metal weapons within 30 ft."
+						],
+						[
+							"4",
+							"While burning you can use your reaction to give an attack roll made with a metal weapon a negative to hit equal to your prof bonus"
+						],
+						[
+							"5",
+							"While burning you have learned to create always push on the area around you all attacks against you made with metal weapons have disadvantage to hit."
+						]
+					]
+				}
+			]
+		},
 	]
 }
