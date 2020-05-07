@@ -726,7 +726,7 @@
 		}
 	],
 	"optionalfeatures": [
-			{
+		{
 			"name": "Steel",
 			"source": "AudXHomebrew",
 			"featureType": "Allomancy",
