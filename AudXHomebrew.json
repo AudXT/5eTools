@@ -736,8 +736,8 @@
 					"type": "table",
 					"caption": "Powers",
 					"colStyles": [
-						"col-3 text-center",
-						"col-9 text-center"
+						"col-6 text-center",
+						"col-6 text-center"
 					],
 					"colLabels": [
 						"Order",
