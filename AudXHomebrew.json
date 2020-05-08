@@ -743,7 +743,7 @@
 			"featureType": "ALLO",
 			"prerequisite": [
 				{
-					"optionalFeature": [
+					"other": [
 						"Steel Misting - Coinshot"
 					]
 				}
@@ -753,14 +753,15 @@
 			]
 		},
 		{
-			"name": "Steel Intermediate",
+			"name": "Steel Intermediate - Shoot Metal",
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
 			"prerequisite": [
 				{
-					"optionalFeature": [
-						"Steel Basic"
-					]
+					"otherSummary": {
+						"entry": "You have learned the Steel Basic Allomantic ability",
+						"entrySummary": "Steel Basic"
+					}
 				}
 			],
 			"entries": [
