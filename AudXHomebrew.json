@@ -14,6 +14,9 @@
                 ]
             }
         ],
+        "optionalFeatureTypes": {
+        	"ALLO": "Allomancy"
+        },
         "dateAdded": 1588713275,
         "dateLastModified": 1588713275
     },
