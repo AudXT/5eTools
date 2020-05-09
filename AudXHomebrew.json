@@ -463,6 +463,17 @@
 							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 						]
+					},
+					{
+						"type": "entries",
+						"name": "Proficiency Versatility",
+						"entries": [
+							"{@i 12th-level feature (enhances Ability Score Improvement)}",
+							"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
+							"This change represents one of your skills atrophying as you focus on a different skill."
+						],
+						"source": "UAClassFeatureVariants",
+						"page": 1
 					}
 				],
 				[
@@ -734,7 +745,8 @@
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
 			"entries": [
-				"One of the most complicated allomantic abilities it allows the art of burning steel to push metals away in a straight line from the user's center of gravity there are 2 general rules for steelpushing, which also apply to ironpulling, its paired opposite. The first rule is that the strength of your push is roughly proportional to your physical weight. This means that larger Allomancers can generally steelpush and ironpull more powerfully than a smaller counterpart. While proportional, the force exerted by a steelpush is much greater than the Coinshot's weight, allowing them to push themselves into the air by pushing on a piece of metal that is on the ground (or is anchored to something that weighs more than they do). The second rule is that metal that is at least partially inside a person's body cannot be affected by steel. Both of these rules can be overcome by a sufficiently strong Coinshot, however." 
+				"Steel is one of the most complicated allomantic abilities it allows the user to burn steel to push metals away in a straight line from the user's center of gravity there are 2 general rules for steelpushing, which also apply to ironpulling, its paired opposite. The first rule is that the strength of your push is roughly proportional to your physical weight. This means that larger Allomancers can generally steelpush and ironpull more powerfully than a smaller counterpart. While proportional, the force exerted by a steelpush is much greater than the Coinshot's weight, allowing them to push themselves into the air by pushing on a piece of metal that is on the ground (or is anchored to something that weighs more than they do). The second rule is that metal that is at least partially inside a person's body cannot be affected by steel. Both of these rules can be overcome by a sufficiently strong Coinshot, however.", 
+				"When you take this ability you gain {@optionalfeature Steel Basic|AudXHomebrew}."
 			]
 		},
 		{
@@ -743,13 +755,14 @@
 			"featureType": "ALLO",
 			"prerequisite": [
 				{
-					"other": [
-						"Steel Misting - Coinshot"
-					]
+					"otherSummary": {
+						"entry": "You must have the steel misting ability to take this ability",
+						"entrySummary": "Steel Misting"
+					}
 				}
 			],
 			"entries": [
-				"While burning you can see blue lines leading to each source of metal within 30 ft you can push on any of these lines as an action to push the metal way from yourself."
+				"While burning you can see blue lines leading to each source of metal within 30 ft. of you. As an action any of these blue lines can be pushed on to create a force between you and the metal."
 			]
 		},
 		{
@@ -765,7 +778,105 @@
 				}
 			],
 			"entries": [
-				"While burning push on small bits of metal to launch them gain the ability to make a ranged attack roll using Int with a range of 30/60 on a hit it deals 1d6 piercing damage. The item must weigh at least around as much as a copper piece."
+				"While burning your accuracy has improved and you are proficient at pushing on small bits of metal to launch them as projectiles.",
+				"You now have the ability to make a ranged attack (1d20 + prof + int) to hit with a range of 30 ft / 90 ft on a hit it deals 1d6 + int piercing damage if you are a medium creature, the damage die changes to 1d4 if you are small or smaller and 1d8 if you are large or larger. The item must weigh at least around as much as a copper piece and no more than a half pound. You can use an object weighing up to 10 pounds but you have disadvantage to hit and deal an extra damage die."
+			]
+		},
+		{
+			"name": "Steel Intermediate - Levitate",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned the Steel Basic Allomantic ability",
+						"entrySummary": "Steel Basic"
+					}
+				}
+			],
+			"entries": [
+				"While burning use an action to Drop a piece of metal on the ground to push yourself 30 ft into the air you can stay there as long as you continue pushing, if you leave your original horizontal position, at the end of your turn you fall to the ground."
+			]
+		},
+		{
+			"name": "Steel Expert - Metal Spray",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned the Steel Intermediate - Shoot Metal Allomantic ability",
+						"entrySummary": "Steel Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"While burning push on multiple pieces of metal in you hand to create a spray of metal projectiles in front of you.",
+				"Each creature in a 15 ft cone originating from you must make a dex save (DC int) or take 1d6 piercing damage and none if they succeed."
+			]
+		},
+		{
+			"name": "Steel Expert - Falling Catch",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned the Steel Intermediate - Levitate Allomantic ability",
+						"entrySummary": "Steel Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"While falling you can use a reaction to expend one charge to drop a piece of metal and catch yourself 60 ft above the ground (you can choose to stop closer to the ground but not higher). Your steel - Levitate now works up to 60 ft in the air."
+			]
+		},
+		{
+			"name": "Steel Master - Empower weapons",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned both the Steel Expert abilities",
+						"entrySummary": "Steel Expert"
+					}
+				}
+			],
+			"entries": [
+				"While burning you can imbue any metal weapon you are weilding with extra force. You now add your int to attack and damage rolls you make with these weapons."
+			]
+		},
+		{
+			"name": "Steel Master - Protective Push",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned both the Steel Expert abilities",
+						"entrySummary": "Steel Expert"
+					}
+				}
+			],
+			"entries": [
+				"While burning you can use your reaction to give an attack roll made with a metal weapon a negative to hit equal to your Int modifier."
+			]
+		},
+		{
+			"name": "Steel Legend - Steel Bubble",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned both the Steel Master abilities",
+						"entrySummary": "Steel Master"
+					}
+				}
+			],
+			"entries": [
+				"While burning you have learned to always push on the area around you. All attacks against you made with metal weapons have disadvantage to hit."
 			]
 		}
 	]
