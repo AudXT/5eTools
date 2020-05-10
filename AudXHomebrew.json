@@ -878,6 +878,89 @@
 			"entries": [
 				"While burning you have learned to always push on the area around you. All attacks against you made with metal weapons have disadvantage to hit."
 			]
+		},
+		{
+			"name": "Iron Misting - Lurcher",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"One of the most complicated allowmantic abilities it allows the art of burning iron to pull metals away in a straight line from the user's center of gravity. There are two general rules for ironpulling, which also apply to steelpushing, its paired opposite. The first rule is that the strength of your pull is roughly proportional to your physical mass. This means that larger Allomancers can generally ironpull and steelpush more powerfully than a smaller counterpart. While proportional, the force exerted by an ironpull is much greater than the Lurcher's weight, allowing them to pull themselves through the air by pulling on a piece of metal that weighs more than they do (or is anchored to something that does). The second rule is that metal that is at least partially inside a person's body cannot be affected by iron.",
+				"When you take this ability you gain Iron Basic."
+			]
+		},
+		{
+			"name": "Iron Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"While burning you can see blue lines leading to each source of metal within 30 ft you can pull on any of these lines as an action to pull the metal towards yourself."
+			]
+		},
+		{
+			"name": "Iron Intermediate - Pulled Projectile",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned the Iron Basic Allomantic ability",
+						"entrySummary": "Iron Basic"
+					}
+				}
+			],
+			"entries": [
+				"Your skill at pulling has improved and you are proficient at pulling on small bits of metal behind enemies to use them as projectiles.",
+				"When you do so they make a dex saving throw (8 + prof + int) or take 1d6 + int piercing damage if you are a medium creature, the damage die changes to 1d4 if you are small or smaller and 1d8 if you are large or larger. The item must weigh at least around as much as a copper piece and no more than a half pound. You can use an object weighing up to 10 pounds but they have advantage on the save to hit and deal an extra damage die."
+			]
+		},
+		{
+			"name": "Iron Intermediate - Falling Catch",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned the Iron Basic Allomantic ability",
+						"entrySummary": "Iron Basic"
+					}
+				}
+			],
+			"entries": [
+				"While falling you use a reaction to expend a charge to pull on metal above you within range and catch yourself.",
+				"Your iron - basic range increases to 60 ft."
+			]
+		},
+		{
+			"name": "Iron Expert - Absorbing Blows",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned both Iron - Intermediate Allomantic abilities",
+						"entrySummary": "Iron Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"While burning and wearing armor you can use your reaction to give an attack roll made with a metal weapon a negative to hit equal to your int bonus"
+			]
+		},
+		{
+			"name": "Iron Master - Absorbing Field",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You have learned the Iron Expert Allomantic ability",
+						"entrySummary": "Iron Expert"
+					}
+				}
+			],
+			"entries": [
+				"While burning you have learned to always pull on the area around you all attacks against you while you wear armor that are made with metal weapons have disadvantage to hit."
+			]
 		}
 	]
 }
