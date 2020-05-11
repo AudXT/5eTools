@@ -905,6 +905,70 @@
 			]
 		},
 		{
+			"name": "Zinc Intermediate - Enrage",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the zinc basic ability to take this ability",
+						"entrySummary": "Zinc Basic"
+					}
+				}
+			],
+			"entries": [
+				"You can flair your metals to cast crown of madness on 1 person."
+			]
+		},
+		{
+			"name": "Zinc Expert - Large Influence",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the zinc intermediate ability to take this ability",
+						"entrySummary": "Zinc Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"Your advantage on charisma checks extends to crowds."
+			]
+		},
+		{
+			"name": "Zinc Expert - Enrage Many",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the zinc intermediate ability to take this ability",
+						"entrySummary": "Zinc Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"Your crown of madness can be cast on a number of individuals equal to your charisma modifier."
+			]
+		},
+		{
+			"name": "Zinc Master - Control",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have both zinc expert abilities to take this ability",
+						"entrySummary": "Zinc Expert"
+					}
+				}
+			],
+			"entries": [
+				"You can end a charm person effect as an action to force the charmed person to complete an action as if they had failed the save for the command spell. After which they know they were charmed by you."
+			]
+		},
+		{
 			"name": "Brass Misting - Soother",
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
@@ -927,6 +991,70 @@
 			],
 			"entries": [
 				"While burning you have advantage on charisma checks made against a single individual. You can cast the charm person spell without a spell slot using your charisma to determine the DC, it is not considered a spell."
+			]
+		},
+		{
+			"name": "Brass Intermediate - Calmin Wave",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the brass basic ability to take this ability",
+						"entrySummary": "Brass Basic"
+					}
+				}
+			],
+			"entries": [
+				"You can flair your metals to cast Calm emotions on a single creature."
+			]
+		},
+		{
+			"name": "Brass Expert - Large Influence",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the brass intermediate ability to take this ability",
+						"entrySummary": "Brass Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"Your advantage on charisma checks extends to crowds."
+			]
+		},
+		{
+			"name": "Brass Expert - Calm Many",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the brass intermediate ability to take this ability",
+						"entrySummary": "Brass Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"Your Calm Emotions can be cast on a number of individuals equal to your charisma modifier."
+			]
+		},
+		{
+			"name": "Brass Master - Control",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have both brass expert abilities to take this ability",
+						"entrySummary": "Brass Expert"
+					}
+				}
+			],
+			"entries": [
+				"You can end a charm person effect as an action to force the charmed person to complete an action as if they had failed the save for the command spell. After which they know they were charmed by you."
 			]
 		},
 		{
@@ -1249,6 +1377,38 @@
 			],
 			"entries": [
 				"While burning a bubble up to 25 ft diameter appears centered on you slowing down time for you. For each minute you spend in the bubble 20 minutes pass outside the bubble. Objects/magic inside can't interact with objects/magic outside and visa versa."
+			]
+		},
+		{
+			"name": "Cadmium Intermediate - Time Skip",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the cadmium basic ability to take this ability",
+						"entrySummary": "Cadmium Basic"
+					}
+				}
+			],
+			"entries": [
+				"While burning you can flair your metals as a bonus action to time skip you and any creature inside the bubble instantly skip forward 1 minute. From the outside you disappear and reappear."
+			]
+		},
+		{
+			"name": "Cadmium Expert - Bubble Blink",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the cadmium intermediate ability to take this ability",
+						"entrySummary": "Cadmium Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"You have trained with your “useless” ability for some time and have found ways to make it useful, at the cost of 1 charge you can blink your bubble momentarily in and out of existence as a reaction giving any ranged weapon or spell attack disadvantage that would pass through the edge of your bubble."
 			]
 		},
 		{
