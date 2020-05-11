@@ -1046,7 +1046,7 @@
 			]
 		},
 		{
-			"name": "Tin Intermediate",
+			"name": "Tin Intermediate - Resist Stun",
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
 			"prerequisite": [
@@ -1058,11 +1058,11 @@
 				}
 			],
 			"entries": [
-				"User can expend the rest of a charge to flair metals to make a new save against a stunned condition effecting you."
+				"User can as a bonus action expend the rest of a charge to flair metals to make a new save against a stunned condition effecting you."
 			]
 		},
 		{
-			"name": "Tin Master",
+			"name": "Tin Expert - Extreme Sense",
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
 			"prerequisite": [
@@ -1074,7 +1074,7 @@
 				}
 			],
 			"entries": [
-				"While burning Tin you gain blindsight to 20 ft and are considered blinded while in normal lighting conditions. Each time you take non-psychic damage the amount you take is increased by your proficiency modifier. While not burning Tin, damage you take is decreased by your proficiency modifier."
+				"While burning Tin you gain blindsight to 20 ft and are considered blinded while in normal lighting conditions and you darkvision now increases by 90 ft instead of 30 ft. Each time you take non-psychic damage the amount you take is increased by your proficiency modifier. While not burning Tin, damage you take is decreased by your proficiency modifier."
 			]
 		},
 		{
