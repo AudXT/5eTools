@@ -737,6 +737,20 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Mistcloak",
+			"source": "AudXHomebrew",
+			"tier": "major",
+			"rarity": "vary rare",
+			"reqAttune": false,
+			"wondrous": true,
+			"bonusAc": "+1",
+			"entries": [
+				"Worn to obscure their figure and so prevent them from being seen. It is a hooded garment made from a lightweight material, and consisted of ribbonlike strips of dark gray cloth sewn together at the shoulders and chest.[1] Mistcloaks are constructed to come free when pulled, so that they cannot be used against the wearer in combat.",
+				"While in dim or dark light when wearing this you can use an action to pull the hood up and the cloak tight around you, shrouding yourself in the cloak, it stays this way until you make an attack or cast a spell. While in this state you have advantage on stealth checks and attacks have disadvantage to hit you.",
+				"You gain +1 to your AC while wearing this with light armor or no armor."
+			]
 		}
 	],
 	"optionalfeature": [
