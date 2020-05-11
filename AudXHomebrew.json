@@ -981,6 +981,38 @@
 			]
 		},
 		{
+			"name": "Tin Intermediate",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the tin basic ability to take this ability",
+						"entrySummary": "Tin Basic"
+					}
+				}
+			],
+			"entries": [
+				"User can expend the rest of a charge to flair metals to make a new save against a stunned condition effecting you."
+			]
+		},
+		{
+			"name": "Tin Master",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the tin intermediate ability to take this ability",
+						"entrySummary": "Tin Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"While burning Tin you gain blindsight to 20 ft and are considered blinded while in normal lighting conditions. Each time you take non-psychic damage the amount you take is increased by your proficiency modifier. While not burning Tin, damage you take is decreased by your proficiency modifier."
+			]
+		},
+		{
 			"name": "Copper Misting - Smoker",
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
