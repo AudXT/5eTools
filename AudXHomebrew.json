@@ -878,6 +878,306 @@
 			"entries": [
 				"While burning you have learned to always push on the area around you. All attacks against you made with metal weapons have disadvantage to hit."
 			]
+		},
+		{
+			"name": "Zinc Misting - Rioter",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Emotional Allomancy is not mind control, but it does allow the practitioner to influence the emotions of those around them. The effects can be targeted at a specific individual or group and can focus on specific emotions. Rioting emotions can be used to increase someone's desire, determination, or anger. It can accomplish many of the same things as Soothing emotions by Rioting all but the specified emotions. Extreme emotions in the target will interfere with emotional Allomancy. Emotional Allomancy can affect animals, however it requires a certain amount of sapience (int of at least 3).",
+				"When you take this ability you gain Zinc Basic"
+			]
+		},
+		{
+			"name": "Zinc Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the zinc misting ability to take this ability",
+						"entrySummary": "Zinc Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning you have advantage on charisma checks made against a single individual. You can cast the charm person spell without a spell slot using your charisma to determine the DC, it is not considered a spell."
+			]
+		},
+		{
+			"name": "Brass Misting - Soother",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Emotional Allomancy is not mind control, but it does allow the practitioner to influence the emotions of those around them. The effects can be targeted at a specific individual or group and can focus on specific emotions. Rioting emotions can be used to increase someone's desire, determination, or anger. It can accomplish many of the same things as Soothing emotions by Rioting all but the specified emotions. Extreme emotions in the target will interfere with emotional Allomancy. Emotional Allomancy can affect animals, however it requires a certain amount of sapience (int of at least 3).",
+				"When you take this ability you gain Brass Basic."
+			]
+		},
+		{
+			"name": "Brass Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the brass misting ability to take this ability",
+						"entrySummary": "Brass Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning you have advantage on charisma checks made against a single individual. You can cast the charm person spell without a spell slot using your charisma to determine the DC, it is not considered a spell."
+			]
+		},
+		{
+			"name": "Pewter Misting - Pewterarm",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Also known as a Pewterarm. Pewter's utility is not simply from the increased strength or speed. It grants the user the ability to heal from otherwise deadly wounds, and to recover much quicker. Aluminum in a wound will make it impossible for the Thug to heal the injury around the metal for as long as it remains in the body. Pewter also enhances the body's natural balance, granting almost unnaturally smooth movements. It also increases reaction speed and gives them resistance to hot and cold temperatures. Finally, it increases endurance, letting the body continue on long past when it would have normally shut down. Pewter can be dangerous when it runs out, which is a serious concern since it is the fastest-burning of the eight basic metals. A Thug having just survived a deadly wound can die from the resulting effects when the body runs out of pewter to burn. However, the body will naturally burn pewter in an attempt to heal itself, so even an unconscious Thug can be given additional pewter to survive otherwise life-threatening situations.",
+				"By constantly flaring pewter for a long time (pewter dragging), a Thug can achieve incredible things, such as running at roughly the speed of a galloping horse for extended periods. However, this is extremely dangerous and could even be lethal when the Thug stops burning pewter, for they would suffer from the sudden burst of fatigue which was suppressed by pewter. Several days of rest and sufficient food are required to replenish the Thug afterwards.",
+				"When you take this ability you gain Pewter Basic."
+			]
+		},
+		{
+			"name": "Pewter Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the pewter misting ability to take this ability",
+						"entrySummary": "Pewter Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning you gain advantage on acrobatics, athletics, con saves , your AC increases by 2 and you heal 1 hp per round while you have at least 1 hit point."
+			]
+		},
+		{
+			"name": "Tin Misting - Tineye",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Burning tin grants a Tineye increased sensitivity in all five senses. Furthermore, they are able to see through the lights as if they weren't there. A Tineye can flare tin, causing a huge burst of sensory input, to clear their head from pain or exhaustion. Tin will allow the Tineye to see in areas of low light, but does not allow the user to see in total darkness.",
+				"When you take this ability you gain Tin Basic."
+			]
+		},
+		{
+			"name": "Tin Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the tin misting ability to take this ability",
+						"entrySummary": "Tin Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning tin darkvision radius is increased by 30 ft and the user has advantage on perception checks. Bright light and loud noises have a chance to (con save) stun you and you have vulnerability to thunder damage."
+			]
+		},
+		{
+			"name": "Copper Misting - Smoker",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Other Allomancers near a Smoker are protected from Seekers. With nicrosil enhanced Seekers, it is possible to sense Allomancy being used inside the cloud. Multiple Smokers burning copper in the same area will make the resulting coppercloud harder to pierce. Smokers are of central importance when Allomancers are trying to hide. If a Seeker is inside of a coppercloud, they will be unable to receive any pulses from the outside.",
+				"When you take this ability you gain Copper Basic."
+			]
+		},
+		{
+			"name": "Copper Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the copper misting ability to take this ability",
+						"entrySummary": "Copper Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning all allomantic effects within 30 ft of you are hidden. You are Immune to unenhanced Zinc and Brass"
+			]
+		},
+		{
+			"name": "Bronze Misting - Seeker",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"When a Seeker burns bronze, they are able to detect nearby use of Allomancy. The Seeker feels pulses, like beats of a drum, emanating from the person burning a metal. The metals are grouped into fast and slow, pushing and pulling, and have their own signature feel. This is how it is known that bronze is a Pushing metal, while copper is Pulling.",
+				"When you take this ability you gain Bronze Basic."
+			]
+		},
+		{
+			"name": "Bronze Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the bronze misting ability to take this ability",
+						"entrySummary": "Bronze Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning you can sense the location of an allomancer burning metals within 30 ft of you."
+			]
+		},
+		{
+			"name": "Duralamin Misting - Gnat",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Unknown what it's effects are all duralumin is instantly burned when used."
+			]
+		},
+		{
+			"name": "Aluminum Misting - Gnat",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Unknown what it's effects are all duralumin is instantly burned when used."
+			]
+		},
+		{
+			"name": "Gold Misting - Augur",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"An Augur burning gold is able to see a hallucination of who the user could have been, known as a 'gold shadow.' Due to the emotional stress associated with seeing one's alternate past, gold is not a very useful metal. Furthermore, touching the gold shadow while burning gold causes unpleasant side effects. Each time an Augur burns gold, they see a different image, as it changes depending on their current situation."
+			]
+		},
+		{
+			"name": "Electrum Misting - Oracle",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Burning electrum will reveal possible futures of the Oracle up to several seconds, by casting shadows of oneself.",
+				"When you take this ability you gain Electrum Basic."
+			]
+		},
+		{
+			"name": "Electrum Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the electrum misting ability to take this ability",
+						"entrySummary": "Electrum Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning gain the effects of bless on yourself."
+			]
+		},
+		{
+			"name": "Nicrosil Misting - Nicroburster",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"A Nicroburst burning nicrosil and touching another Allomancer will cause the latter's reserves of the metals that are currently burning to disappear and give a huge burst of power to the recipient. This can cause issues with metals such as tin, where the mental overload can cause unconsciousness.",
+				"When you take this ability you gain Nicrosil Basic."
+			]
+		},
+		{
+			"name": "Nicrosil Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the nicrosil misting ability to take this ability",
+						"entrySummary": "Nicrosil Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning as an action make a touch attack using dex or str to instantly burn away all of the targets reserve in a powerful burst."
+			]
+		},
+		{
+			"name": "Chromium Misting - Leecher",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Chromium causes any Allomancers touched by a Leecher to lose their metal reserves. When burning away a person's metals, Only Allomantically relevant metals can be burned away.",
+				"When you take this ability you gain Chromium Basic."
+			]
+		},
+		{
+			"name": "Chromium Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the chromium misting ability to take this ability",
+						"entrySummary": "Chromium Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning make a touch spell attack using dex or str to instantly burn away all of the targets reserves."
+			]
+		},
+		{
+			"name": "Cadmium Misting - Pulser",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Burning cadmium pulls on time around the user, causing time to pass more slowly in a bubble around them. Events outside the bubble appear to move much faster to someone inside.",
+				"When you take this ability you gain Cadmium Basic."
+			]
+		},
+		{
+			"name": "Cadmium Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the cadmium misting ability to take this ability",
+						"entrySummary": "Cadmium Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning a bubble up to 25 ft diameter appears centered on you slowing down time for you. For each minute you spend in the bubble 20 minutes pass outside the bubble. Objects/magic inside can't interact with objects/magic outside and visa versa."
+			]
+		},
+		{
+			"name": "Bendalloy Misting - Slider",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Burning bendalloy pushes on time around the user, causing time to pass more quickly in a bubble around them. Events outside the bubble appear to move much slower to someone inside",
+				"When you take this ability you gain Bendalloy Basic."
+			]
+		},
+		{
+			"name": "Bendalloy Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the bendalloy misting ability to take this ability",
+						"entrySummary": "Bendalloy Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning a bubble up to 15 ft diameter appears centered on you speeding up time inside. For each round you spend inside the bubble 5 rounds pass outside the bubble. Objects/magic inside can't interact with objects/magic outside and visa versa."
+			]
 		}
 	]
 }
