@@ -956,6 +956,71 @@
 			]
 		},
 		{
+			"name": "Pewter Intermediate - Fight Through",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the pewter basic ability to take this ability",
+						"entrySummary": "Pewter Basic"
+					}
+				}
+			],
+			"entries": [
+				"You can flair your metal as a bonus action to gain temporary hit points equal to your level that last as long as you continue burning.",
+				"If the temporary hit points are lost due to taking damage when you stop burning you gain 1 point of exhaustion."
+			]
+		},
+		{
+			"name": "Pewter Intermediate - Beyond Death",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the pewter basic ability to take this ability",
+						"entrySummary": "Pewter Basic"
+					}
+				}
+			],
+			"entries": [
+				"While burning pewter at 0 hit points you do not fall unconscious but you continue making death saving throws as normal. You gain 1 point of exhaustion and 1 additional point for each failed death save once you stop burning."
+			]
+		},
+		{
+			"name": "Pewter Expert - Forced Success",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have both pewter intermediate abilites to take this ability",
+						"entrySummary": "Pewter Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"If you fail a con saving throw you can flair your pewter to instead succeed. If you do so when you stop burning pewter you gain 1 point of exhaustion."
+			]
+		},
+		{
+			"name": "Pewter Master - Ignore Fatigue",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the pewter expert ability to take this ability",
+						"entrySummary": "Pewter Expert"
+					}
+				}
+			],
+			"entries": [
+				"Your healing per round is now equal to your proficiency bonus, while burning pewter you ignore the effects of the first 5 points of exhaustion."
+			]
+		},
+		{
 			"name": "Tin Misting - Tineye",
 			"source": "AudXHomebrew",
 			"featureType": "ALLO",
