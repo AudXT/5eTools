@@ -673,7 +673,7 @@
 			]
 		}
 	],
-	"item": [
+	"basicitem":[
 		{
 			"name": "Metallurgy Kit",
 			"source": "AudXHomebrew",
@@ -737,13 +737,14 @@
 					]
 				}
 			]
-		},
+		}
+	],
+	"item": [
 		{
 			"name": "Mistcloak",
 			"source": "AudXHomebrew",
 			"tier": "major",
 			"rarity": "vary rare",
-			"reqAttune": false,
 			"wondrous": true,
 			"bonusAc": "+1",
 			"entries": [
