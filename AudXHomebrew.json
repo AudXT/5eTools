@@ -1583,7 +1583,7 @@
 			"entries": [
 				"While burning you can sense the location of an allomancer burning metals within 100 ft of you."
 			]
-		}
+		},
 		{
 			"name": "Bronze Intermediate",
 			"source": "AudXHomebrew",
@@ -1599,7 +1599,7 @@
 			"entries": [
 				"You can now detect which metal is being burned."
 			]
-		}
+		},
 		{
 			"name": "Bronze Expert",
 			"source": "AudXHomebrew",
