@@ -1533,6 +1533,88 @@
 			"entries": [
 				"While burning a bubble up to 15 ft diameter appears centered on you speeding up time inside. For each round you spend inside the bubble 5 rounds pass outside the bubble. Objects/magic inside can't interact with objects/magic outside and visa versa."
 			]
+		},
+		{
+			"name": "Copper Misting - Smoker",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"Other Allomancers near a Smoker are protected from Seekers. With Nicrosil enhanced Seekers, it is impossible to sense Allomancy being used inside the cloud. Multiple Smokers burning copper in the same area will make the resulting coppercloud harder to pierce. Smokers are of central importance when Allomancers are trying to hide. If a Seeker is inside of a coppercloud, they will be unable to receive any pulses from the outside.",
+				"When you take this ability you gain Copper Basic."
+			]
+		},
+		{
+			"name": "Copper Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the copper misting ability to take this ability",
+						"entrySummary": "Copper Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning all allomantic effects within 60 ft of you are hidden as. You are Immune to Zinc and Brass."
+			]
+		},
+		{
+			"name": "Bronze Misting - Seeker",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"entries": [
+				"When a Seeker burns bronze, they are able to detect nearby use of Allomancy. The Seeker feels pulses, like beats of a drum, emanating from the person burning a metal. The metals are grouped into fast and slow, pushing and pulling, and have their own signature feel. This is how it is known that bronze is a Pushing metal, while copper is Pulling.",
+				"When you take this ability you gain Bronze Basic."
+			]
+		},
+		{
+			"name": "Bronze Basic",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the bronze misting ability to take this ability",
+						"entrySummary": "Bronze Misting"
+					}
+				}
+			],
+			"entries": [
+				"While burning you can sense the location of an allomancer burning metals within 100 ft of you."
+			]
+		}
+		{
+			"name": "Bronze Intermediate",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the bronze basic ability to take this ability",
+						"entrySummary": "Bronze basic"
+					}
+				}
+			],
+			"entries": [
+				"You can now detect which metal is being burned."
+			]
+		}
+		{
+			"name": "Bronze Expert",
+			"source": "AudXHomebrew",
+			"featureType": "ALLO",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the bronze Intermediate ability to take this ability",
+						"entrySummary": "Bronze Intermediate"
+					}
+				}
+			],
+			"entries": [
+				"Range is increased to 300 ft."
+			]
 		}
 	]
 }
