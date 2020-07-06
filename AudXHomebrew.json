@@ -264,10 +264,13 @@
 					],
 					"rows": [
 						[
+							"All Base"
+						],
+						[
 							1
 						],
 						[
-							2
+							3
 						],
 						[
 							4
@@ -276,7 +279,7 @@
 							5
 						],
 						[
-							6
+							7
 						],
 						[
 							8
@@ -285,7 +288,7 @@
 							9
 						],
 						[
-							10
+							11
 						],
 						[
 							12
@@ -297,7 +300,7 @@
 							14
 						],
 						[
-							15
+							16
 						],
 						[
 							17
@@ -309,7 +312,7 @@
 							19
 						],
 						[
-							20
+							21
 						],
 						[
 							22
@@ -319,9 +322,6 @@
 						],
 						[
 							24
-						],
-						[
-							25
 						]
 					]
 				}
@@ -338,7 +338,8 @@
 					{
 						"name": "Allomancy",
 						"entries": [
-							"At 1st level, you gain access to allomancy and learn the first ability of each of the metals. You gain choose a new allomantic ability each level."
+							"At 1st level, you gain access to allomancy and learn the first ability of each of the metals. You gain choose a new allomantic ability each level.",
+							"Metals when consumed stay as a reserve of charges within the user until they finish a long rest or are burned, there are no caps on the charges a person can have. As an action you can expend one charge to begin burning, if the duration would end and you have a charge available you can expend the charge to continue the burn using no action. If you attempt to burn a metal that is not pure but close to the metal you can burn, it can be dangerous. Possibly poisoning you, dealing damage or even killing you."
 						]
 					},
 					{
@@ -794,7 +795,7 @@
 			],
 			"entries": [
 				"While burning your accuracy has improved and you are proficient at pushing on small bits of metal to launch them as projectiles.",
-				"You now have the ability to make a ranged attack (1d20 + prof + int) to hit with a range of 30 ft / 90 ft on a hit it deals 1d6 + int piercing damage if you are a medium creature, the damage die changes to 1d4 if you are small or smaller and 1d8 if you are large or larger. The item must weigh at least around as much as a copper piece and no more than a half pound. You can use an object weighing up to 10 pounds but you have disadvantage to hit and deal an extra damage die."
+				"You now have the ability to make a ranged attack (1d20 + prof + int) to hit with a range of 60 ft / 90 ft on a hit it deals 1d10 + int piercing damage. The item must weigh at least around as much as a copper piece and no more than a half pound. You can use an object weighing up to 10 pounds but you have disadvantage to hit and deal an extra damage die."
 			]
 		},
 		{
@@ -827,7 +828,7 @@
 			],
 			"entries": [
 				"While burning push on multiple pieces of metal in you hand to create a spray of metal projectiles in front of you.",
-				"Each creature in a 15 ft cone originating from you must make a dex save (DC int) or take 1d6 piercing damage and none if they succeed."
+				"As an attack on your turn each creature in a 20 ft cone originating from you must make a dex save (DC int) or take 1d8 piercing damage and none if they succeed."
 			]
 		},
 		{
