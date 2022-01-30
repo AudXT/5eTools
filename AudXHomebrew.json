@@ -520,6 +520,91 @@
 					]
 				}
 			]
+		}
+		,
+		{
+			"name": "Sentinel",
+			"source": "AudXHomebrew",
+			"page": 0,
+			"entries": [
+				"You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you hit a creature with an opportunity attack, the creature's speed is reduced by it's current speed.",
+						"Creatures provoke opportunity attacks from you even if they take the {@action Disengage} action before leaving your reach, although you have disadvantage to hit creatures that have Disengaged.",
+						"When a creature within 5 feet of you makes an attack against a target other than you, you can use your reaction to make a melee weapon attack against the attacking creature."
+					]
+				}
+			]
+		}
+		,
+		{
+			"name": "Spell Sniper",
+			"source": "AudXHomebrew",
+			"page": 0,
+			"entries": [
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"Choose a cantrip you know that requires a spell attack roll, you now add you're ability modifier to the damage of that spell."
+					]
+				}
+			]
+		}
+		,
+		{
+			"name": "Spell Sniper (Accurate)",
+			"source": "AudXHomebrew",
+			"page": 0,
+			"entries": [
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"When you have advantage on attack rolls made with a ranged spell attack you may roll 3 die instead of 2."
+					]
+				}
+			]
+		}
+		,
+		{
+			"name": "Alert",
+			"source": "AudXHomebrew",
+			"page": 0,
+			"entries": [
+				"Always on the lookout for danger, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +5 bonus to initiative.",
+						"Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.",
+						"While conscious if you would be surprised at the start of a combat you may take a -10 to your initiative roll to no longer be surprised."
+					]
+				}
+			]
+		}
+		,
+		{
+			"name": "Evacuation Specialist",
+			"source": "AudXHomebrew",
+			"page": 0,
+			"entries": [
+				"You are trained in carrying creatures in and out of combat:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on checks to grapple creatures",
+						"You when grappling a creature of your size or smaller you can move at your normal speed",
+						"Your movement speed increases by 10 ft"
+					]
+				}
+			]
 		}		
 	],
 	"class": [
