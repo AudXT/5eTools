@@ -333,14 +333,16 @@
 						"name": "Expertise",
 						"entries": [
 							"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item metallurgy kit|AudXHomebrew}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
-							"At 6th level, you can choose two more of your proficiencies (in skills or with {@item metallurgy kit|AudXHomebrew}) to gain this benefit."
+							"At 6th level, you can choose one more of your proficiencies (in skills or with {@item metallurgy kit|AudXHomebrew}) to gain this benefit."
 						]
 					},
 					{
 						"name": "Allomancy",
 						"entries": [
-							"At 1st level, you gain access to allomancy and learn the first ability of each of the metals. You gain choose a new allomantic ability each level.",
-							"Metals when consumed stay as a reserve of charges within the user until they finish a long rest or are burned, there are no caps on the charges a person can have. As an action you can expend one charge to begin burning, if the duration would end and you have a charge available you can expend the charge to continue the burn using no action. If you attempt to burn a metal that is not pure but close to the metal you can burn, it can be dangerous. Possibly poisoning you, dealing damage or even killing you."
+							"At 1st level, you gain access to allomancy and learn the first ability of each of the metals. You choose a new allomantic ability each level.",
+							"Metals when consumed stay as a reserve of charges within the user until they start a long rest or are burned away. As an action you can expend one charge to begin burning, if the duration would end and you have a charge available you can expend the charge to continue the burn using no action.",
+							"At the start of each day you use must spend 1 hour with your metallurgy kit preparing a number of vials equal to your level + your intelligence modifier (minimum +1).",
+							"Ask your DM: If they allow you may be able to buy or find extra vials of metal in the world or even create your own vials though balancing this can be difficult and extra work. I suggest having metal vials that don't expire show up around the world in the place of potions. If you attempt to burn a metal that is not pure but close to the metal you can burn, it can be dangerous. Possibly poisoning you, dealing damage or even killing you."
 						]
 					},
 					{
@@ -370,7 +372,7 @@
 										"type": "entries",
 										"name": "Unarmored Fighter",
 										"entries": [
-											"While you are not wearing armor, you gain a bonus to AC equal to half your proficiency bonus (rounded up)."
+											"While you are not wearing armor or weilding a shield, your AC equals 10 + Dex + half your proficiency bonus (rounded up)."
 										],
 										"source": "AudXHomebrew"
 									},
@@ -592,7 +594,7 @@
 					{
 						"name": "Natural Reserve",
 						"entries": [
-							"At 14th level your body has grown accustomed to the metals you burn and has grown resistant to the poisons they can cause. You no longer need to burn away your excess metals at night and can continue or start burning them while you are unconscious.",
+							"At 14th level your body has grown accustomed to the metals you burn and has grown resistant to the poisons they can cause. Before each long rest you may choose 1 vial of metal to not lose at the start of the long rest. You can also continue or start burning metals while you are unconscious.",
 							"You also have advantage against saving throws against poisons and disease."
 						]
 					}
@@ -601,8 +603,7 @@
 					{
 						"name": "Metallic Specialist",
 						"entries": [
-							"At 15th level choose one of the metals from a category you specialize in, your body can now naturally create this metal allowing you to have extra reserves of the chosen metal.",
-							"After finishing a long rest you have a minimum of 6 vials worth of your chosen metal ready to burn and your chosen metal burns at a quarter of the normal rate."
+							"At 15th level choose one of the 16 metals and vials of that metal are treated as if they had 4x the charges. When you finish a short rest you increase your reserves to one vial's worth of charges if you had less."
 						]
 					}
 				],
