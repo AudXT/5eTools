@@ -237,6 +237,64 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Voltaic Surge",
+			"source": "AudXHomebrew",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of copper"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a burst of electrical energy around yourself, causing lightning to leap from you and arc towards each creature of your choice within range. each target must make a Dexterity saving throw, taking {@damage 2d6} lightning damage on a failed save, or half as much on a success.",
+				"In addition, residual electricity continues crackling around you. the next time a creature hits you with a melee attack before the end of your next turn, that creature takes {@damage 1d6} lightning damage, cant make any more attacks for the rest of the turn, and can't take reactions until the start of its next turn."
+			],
+			"entriesHigherLevel": [
+				"At Higher Levels When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by {@dice 1d6} for ever slot level above 2nd."
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}		
 		}
 	],
 	"class": [
