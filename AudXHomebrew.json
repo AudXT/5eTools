@@ -295,7 +295,73 @@
 					}
 				]
 			}		
-		}
+		},
+		{
+			"name": "\"My Ultimate Attack\"",
+			"source": "AudXHomebrew",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When casting this spell you begin charging and on each subsequent turn you must use your action to shout the verbal component and unleash it or continue charging.",
+				"When you unleash it your choice of a 120 ft line or 20 ft radius sphere of energy towards a point within range. Each creature within the area must make a Dex saving throw taking {@damage 6d6} force damage on fail or half damage on a success. For each action it was charged it gains an additional {@damage 1d6} damage up to a max of {@dice 12d6} total."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"",
+						"When you cast this spell using a spell slot of 4th level or higher, the bonus charge damage increases by {@dice 1d6} and the length/size increases by 10ft for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}		
 	],
 	"class": [
 		{
