@@ -179,7 +179,7 @@
 			"name": "Chain Static",
 			"source": "AudXHomebrew",
 			"level": 0,
-			"school": "Evoc",
+			"school": "V",
 			"time": [
 				{
 					"number": 1,
@@ -187,9 +187,10 @@
 				}
 			],
 			"range": {
-				"type": "creature",
+				"type": "point",
 				"distance": {
-					"type": "90 ft"
+					"type": "feet",
+					"amount": 90
 				}
 			},
 			"components": {
@@ -198,7 +199,7 @@
 			},
 			"duration": [
 				{
-					"type": "Instant"
+					"type": "instant"
 				}
 			],
 			"entries": [
@@ -213,6 +214,9 @@
 					]
 				}
 			],
+			"spellAttack": [
+				"R"
+			],		
 			"classes": {
 				"fromClassList": [
 					{
